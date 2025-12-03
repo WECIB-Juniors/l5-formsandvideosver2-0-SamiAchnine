@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/X546nSf4)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kWqlw--c)
 # CTI-110_L5
 Teaching HTML Forms, including Post and Get attributes
 
@@ -15,7 +15,7 @@ Requirements
     - A visible heading and short description.
     - At least these inputs: a text input (name), an email input, a select or radio group (choice), a checkbox, a textarea, and a submit button.
     - Use `label` elements correctly linked to inputs (for accessibility).
-    - Set the form `method` to either `GET` or `POST` (and set `action` to a test endpoint (e.g., `https://httpbin.org/post` for POST or `https://httpbin.org/get` for GET) or `#` for local testing.) In the end, set action="./assignment.html". Include a one-line comment explaining your choice.
+    - Set the form `method` to either `GET` or `POST` and set `action` to a test endpoint (e.g., `https://httpbin.org/post` for POST or `https://httpbin.org/get` for GET) or `#` for local testing. Include a one-line comment explaining your choice.
     - Use HTML5 validation attributes (`required`, `pattern`, `minlength`, etc.) on at least two fields.
 - Embed a video:
     - Use the HTML5 `<video>` element with `controls`.

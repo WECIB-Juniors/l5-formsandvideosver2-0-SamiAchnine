@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
+    <title>L5 Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Domain Searcher</h1>
+        <p>Search a domain for public hosting of various things, such as a game server, file server, HTML document, and others.</header>
+    </header>
+    
+    <form action="./assignment.html" method="get" class="nice-looking-form">
+        <!-- I picked GET because I didn't feel like having the website crash every time I pressed Submit. Plus, this information is not sensitive, as there is no credit card or social security number field.-->
+        <label for="fqdn">Enter a valid Domain Name (such as google.com or minecraft.com.au)</label> <br>
+        <input type="text" name="fqdn" id="fqdn" pattern="(?:localhost|(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[A-Za-z]{2,})" required>
+        <!-- I used GPT to generate that regex pattern. I have no clue how that works, and I wanted it to deny any non-domain text entered.-->
+        <br>
+
+        <label for="email">Enter your email address (verification)</label> <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="service">Select the service to search for:</label> <br>
+        <select name="service" id="service">
+            <option value="default">Select</option>
+            <option value="http">HTTP (Web Server)</option>
+            <option value="ftp">FTP (File Transfer Protocol)</option>
+            <option value="ssh">SSH (Secure Shell)</option>
+            <option value="minecraft">Minecraft Server</option>
+            <option value="smtp">SMTP (Email Sending)</option>
+        </select>
+        <br><br>
+
+        <input type="submit">
+    </form>
+    <center class="illegal-center-tag">
+        <p>Video unrelated...</p>
+    <video width="640" height="360" controls>
+        <source src="./sample-video.mp4" type="video/mp4">
+        Your browser is L skibidi. Download a real one (like Waterfox).
+    </video>
+    </center>
+    <footer>
+        <p>Uses fonts from Google Fonts. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
